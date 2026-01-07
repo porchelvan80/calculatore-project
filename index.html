@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <div class="calculator">
+            <div class="display">
+                <div class="previous-operand" data-previous-operand></div>
+                <div class="current-operand" data-current-operand>0</div>
+            </div>
+            <div class="buttons">
+                <button data-operation="clear" class="operation-btn">AC</button>
+                <button data-operation="backspace" class="operation-btn">⌫</button>
+                <button data-operation="percent" class="operation-btn">%</button>
+                <button data-operation="divide" class="operation-btn">÷</button>
+                
+                <button data-number="7" class="number-btn">7</button>
+                <button data-number="8" class="number-btn">8</button>
+                <button data-number="9" class="number-btn">9</button>
+                <button data-operation="multiply" class="operation-btn">×</button>
+                
+                <button data-number="4" class="number-btn">4</button>
+                <button data-number="5" class="number-btn">5</button>
+                <button data-number="6" class="number-btn">6</button>
+                <button data-operation="subtract" class="operation-btn">−</button>
+                
+                <button data-number="1" class="number-btn">1</button>
+                <button data-number="2" class="number-btn">2</button>
+                <button data-number="3" class="number-btn">3</button>
+                <button data-operation="add" class="operation-btn">+</button>
+                
+                <button data-number="0" class="number-btn span-two">0</button>
+                <button data-number="." class="number-btn">.</button>
+                <button data-operation="equals" class="operation-btn">=</button>
+                
+                <button data-operation="power" class="operation-btn">x²</button>
+                <button data-operation="sqrt" class="operation-btn">√</button>
+                <button data-operation="power-y" class="operation-btn">x^y</button>
+                <button data-operation="modulo" class="operation-btn">mod</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
